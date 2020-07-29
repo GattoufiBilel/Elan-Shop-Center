@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "elan-boutique"
+    }
+  },
+  "defaultProject": "elan-boutique",
+  "cli": {
+    "analytics": "3b7bc795-8d04-42c5-b4f3-1a625ac9da26"
+  }
 }
