@@ -9,6 +9,8 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContenuComponent } from './contenu/contenu.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 const approot: Routes = [
 
@@ -27,6 +29,11 @@ const approot: Routes = [
 {
   path : 'header' , component : HeaderComponent
 },
+
+{
+  path : 'navbar' , component : NavbarComponent
+},
+
 
 
 {
@@ -50,10 +57,12 @@ const approot: Routes = [
     AccueilComponent,
     HeaderComponent,
     FooterComponent,
-    ContenuComponent
+    ContenuComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     RouterModule.forRoot(approot)
 
   ],
