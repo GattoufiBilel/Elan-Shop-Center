@@ -32,58 +32,127 @@
 
  </nav>
 
-  <div class="container">
-    <div class="row row-offcanvas row-offcanvas-left">
-        <div class="row-offcanvas row-offcanvas-right">
-           <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebarLeft" role="navigation">
-             <p class="visible-xs">
-              <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
-            </p>
+  <div class="container-fluid">
 
-          </div><!--/span-->
+              <div class="row">
 
-          <div class="col-xs-12 col-sm-8">
-            <p class="pull-left visible-xs">
-              <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
-            </p>
-            <p class="pull-right visible-xs">
-              <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvasright"><i class="glyphicon glyphicon-chevron-right"></i></button>
-            </p>
-            <div class="jumbotron">
+                <div class="col-5">
 
-              <ngb-carousel (slide)="slideActivate($event)">
-                <ng-template ngbSlide>
-                  <div class="picsum-img-wrapper">
-                    <img src="../../assets/images/Tunisian Perl/B 0-01.jpg" alt="Angular Carousel 1">
-                  </div>
-                  <div class="carousel-caption">
-                    <h3>BIENVENU</h3>
-                    <p>Bienvenu a Nos Entreprises d'entrainement ELAN et PES.</p>
-                  </div>
-                </ng-template>
-                <ng-template ngbSlide>
-                    <div class="picsum-img-wrapper">
-                      <img src="../../assets/images/Tunisian Perl/B 04-01.jpg" alt="Angular Carousel 2">
-                    </div>
-                    <div class="carousel-caption">
-                      <h3>ELAN by CONECT</h3>
-                      <p>entreprise de connect</p>
-                    </div>
-                  </ng-template>
-                <ng-template ngbSlide>
-                  <div class="picsum-img-wrapper">
-                    <img src="assets/images/img_bg_3.jpg" alt="Angular Carousel 2">
-                  </div>
-                  <div class="carousel-caption">
-                    <h3>Pes</h3>
-                    <p>entreprise de connect.</p>
-                  </div>
-                </ng-template>
-              </ngb-carousel>
+                  <ngb-carousel (slide)="slideActivate($event)">
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Tunisian Perl/B 0-01.jpg" alt="Angular Carousel 1">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>BIENVENU</h3>
+                        <p>Bienvenu a Nos Entreprises d'entrainement ELAN et PES.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                          <img src="../../assets/images/Tunisian Perl/CM 1-01.jpg" alt="Angular Carousel 2">
+                        </div>
+                        <div class="carousel-caption">
+                          <h3>ELAN by CONECT</h3>
+                          <p>entreprise de connect</p>
+                        </div>
+                      </ng-template>
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Tunisian Perl/B 01-01.jpg" alt="Angular Carousel 2">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>Pes</h3>
+                        <p>entreprise de connect.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Tunisian Perl/Céramique 1-01.jpg" alt="Angular Carousel 2">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>Pes</h3>
+                        <p>entreprise de connect.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Tunisian Perl/CM 1-01.jpg" alt="Angular Carousel 2">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>Pes</h3>
+                        <p>entreprise de connect.</p>
+                      </div>
+                    </ng-template>
+                  </ngb-carousel>
+                </div>
+
+                <div class="col-2">
+                  <div class="vl"></div>
+                </div>
+
+
+                <div class="col-5">
+                  <ngb-carousel (slide)="slideActivate($event)">
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Mme Rekik/PM 130-01.jpg" alt="Angular Carousel 1">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>BIENVENU</h3>
+                        <p>Bienvenu a Nos Entreprises d'entrainement ELAN et PES.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                          <img src="../../assets/images/Mme Rekik/PM130-01.jpg" alt="Angular Carousel 2">
+                        </div>
+                        <div class="carousel-caption">
+                          <h3>ELAN by CONECT</h3>
+                          <p>entreprise de connect</p>
+                        </div>
+                      </ng-template>
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Mme Rekik/PM159-01.jpg" alt="Angular Carousel 2">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>Pes</h3>
+                        <p>entreprise de connect.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Mme Rekik/PM160-01.jpg" alt="Angular Carousel 2">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>Pes</h3>
+                        <p>entreprise de connect.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <div class="picsum-img-wrapper">
+                        <img src="../../assets/images/Mme Rekik/PM165-01.jpg" alt="Angular Carousel 2">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3>Pes</h3>
+                        <p>entreprise de connect.</p>
+                      </div>
+                    </ng-template>
+
+
+                  </ngb-carousel>
+
+                </div>
+
+              </div>
 
 
 
-            </div>
+
+
+
+
             <div class="row">
               <div class="col-6 col-sm-6 col-lg-4">
                 <h2>Heading</h2>
@@ -115,16 +184,13 @@
                 <p>Bootstrap is a front-end framework that uses CSS and JavaScript to facilitate responsive Web design. Bootply is a playground for Bootstrap that enables developers and designers to test, prototype and create mockups using Bootstrap friendly HTML, CSS and Javascript.</p>
                 <p><a class="btn btn-default" href="#">View details »</a></p>
               </div><!--/span-->
+
+
             </div><!--/row-->
-          </div><!--/span-->
-          <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebarRight" role="navigation">
-             <p class="visible-xs">
-              <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
-            </p>
+
 
           </div><!--/span-->
-      </div>
-    </div>
-</div>
+
+
 </body>
 </html>

@@ -14,6 +14,11 @@ import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 const approot: Routes = [
 
+  {
+    path : '' , component : LoginComponent
+  },
+
+
 {
   path : 'login' , component : LoginComponent
 },
@@ -34,13 +39,9 @@ const approot: Routes = [
   path : 'navbar' , component : NavbarComponent
 },
 
-
-
 {
   path : 'contenu' , component : ContenuComponent
 },
-
-
 
 {
   path : 'footer' , component : FooterComponent
