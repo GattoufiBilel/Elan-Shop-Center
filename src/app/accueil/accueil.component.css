@@ -1,3 +1,20 @@
+.carro-custum{
+border: 2px;
+border-color: brown;
+padding-bottom: 300px;
+
+}
 body{
-    background-color: tomato;
+background-color: #15d6a2;
+}
+
+
+.picsum-img-wrapper , img {
+
+		width: 50vw;
+		height: 50vh;
+	 	max-width: 100%;
+		display: block ;
+		margin-top: 150px;
+
 }

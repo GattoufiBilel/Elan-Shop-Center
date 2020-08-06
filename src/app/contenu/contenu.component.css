@@ -1,5 +1,6 @@
 body {
   padding-top: 70px;
+  background-color: gray;
 }
 footer {
   padding-left: 15px;
@@ -7,45 +8,26 @@ footer {
 }
 
 .vl {
-
+  border-left: 6px solid red;
   height: 500px;
-  margin-left: 200px;
 }
 
-/*
- * Off Canvas
- * --------------------------------------------------
- */
-@media screen and (max-width: 768px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
+
+.carro-custum{
+  border: 2px;
+  border-color: brown;
+  padding-bottom: 300px;
+
   }
 
-  .row-offcanvas-left
-  #sidebarLeft {
-    left: -40%;
-  }
 
-  .row-offcanvas-left.active {
-    left: 40%;
-  }
 
-  .row-offcanvas-right
-  #sidebarRight {
-    right: -40%;
-  }
+  .picsum-img-wrapper , img {
 
-  .row-offcanvas-right.active {
-    right: 40%;
-  }
+      width: 50vw;
+      height: 50vh;
+       max-width: 100%;
+      display: block ;
+      margin-top: 150px;
 
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 40%;
-    margin-left: 10px;
   }
-}
