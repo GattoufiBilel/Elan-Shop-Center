@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContenuComponent } from './contenu/contenu.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { SidebareComponent } from './sidebare/sidebare.component';
 
 const approot: Routes = [
 
@@ -45,6 +46,10 @@ const approot: Routes = [
 
 {
   path : 'footer' , component : FooterComponent
+},
+
+{
+  path : 'sidebare' , component : SidebareComponent
 }
 
 
@@ -59,7 +64,8 @@ const approot: Routes = [
     HeaderComponent,
     FooterComponent,
     ContenuComponent,
-    NavbarComponent
+    NavbarComponent,
+    SidebareComponent
   ],
   imports: [
     BrowserModule,
