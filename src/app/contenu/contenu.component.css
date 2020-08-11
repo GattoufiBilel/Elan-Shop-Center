@@ -1,6 +1,5 @@
 body {
-  padding-top: 70px;
-  background-color: gray;
+  background-image: url(../../assets/images/Fond-04.jpg);
 }
 footer {
   padding-left: 15px;
@@ -14,20 +13,16 @@ footer {
 
 
 .carro-custum{
-  border: 2px;
+  margin-top: 20px;
   border-color: brown;
-  padding-bottom: 300px;
+  padding-bottom: 100px;
 
   }
 
 
 
   .picsum-img-wrapper , img {
-
       width: 50vw;
       height: 50vh;
-       max-width: 100%;
-      display: block ;
-      margin-top: 150px;
-
+      max-width: 100%;
   }

@@ -1,18 +1,24 @@
 body{
-  background-color: lightsteelblue;
+  background-color: #21d192;
+  /*background-image: url(../../assets/images/Fond-01.jpg);*/
   font-family: "Lato", sans-serif;
 }
 
+/*lightsteelblue */
+
 nav{
   width: 100%;
-  height: 110px;
-  background-color: lightsteelblue;
+  height: 80px;
+
+  /*background-image: url(../../assets/images/Fond-04.jpg);*/
   }
 
 
   img{
-    width: 150px;
-    height: 70px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 110px;
+    max-width: 100%;
     }
 
 
