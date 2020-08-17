@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import {RouterModule , Routes} from '@angular/router';
@@ -16,6 +17,10 @@ import { MenuComponent } from './menu/menu.component';
 import { PatissiersListComponent } from './produits/patisssiers/patissiers-list/patissiers-list.component';
 import { ArtsListComponent } from './produits/artisanaux/arts-list/arts-list.component';
 
+
+// Imported syncfusion sidebar module from navigations package
+import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
+import { LatteralComponent } from './latteral/latteral.component';
 const approot: Routes = [
 
       {
@@ -54,7 +59,12 @@ const approot: Routes = [
       },
       {
         path : 'patlist' , component : PatissiersListComponent
+      },
+      {
+        path : 'lateralle' , component : LatteralComponent
       }
+
+
 
     ]},
 
@@ -81,13 +91,20 @@ const approot: Routes = [
     MenuComponent,
     PatissiersListComponent,
     ArtsListComponent,
+    LatteralComponent
+
 
 
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    RouterModule.forRoot(approot)
+    RouterModule.forRoot(approot),
+    BrowserModule,
+    // Registering EJ2 Sidebar Module
+    SidebarModule
+
+
 
   ],
   providers: [],

@@ -430,6 +430,14 @@ display: inline-block;
   }
 }
 
+.fixed-left {
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+
+  top: 50; /* Stay at the top */
+  left: 0;
+}
+
+
 
 
 

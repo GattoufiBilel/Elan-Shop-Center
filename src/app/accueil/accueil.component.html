@@ -21,7 +21,7 @@
 
 <body>
 
-  <div class="container">
+<div class="container">
     <div class="row">
       <div class="col-5">
         <ngb-carousel class="carro-custum">
@@ -97,5 +97,25 @@
 </div>
 
 
+<!-- hr separation entre carosel principal et les articles en bas-->
+<div class="container">
+  <div class="row">
+    <hr>
+  </div>
+</div>
+
+<!-- slik carosel -->
+
+
+
 </body>
+
+<script>
+      $(document).ready(function(){
+        $('.items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+        });
+        });</script>
 </html>
