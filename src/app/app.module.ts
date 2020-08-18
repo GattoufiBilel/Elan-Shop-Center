@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import {RouterModule , Routes} from '@angular/router';
+import { RouterModule , Routes} from '@angular/router';
 import { ContacteznousComponent } from './contacteznous/contacteznous.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { HeaderComponent } from './header/header.component';
@@ -19,8 +19,7 @@ import { ArtsListComponent } from './produits/artisanaux/arts-list/arts-list.com
 
 
 // Imported syncfusion sidebar module from navigations package
-import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
-import { LatteralComponent } from './latteral/latteral.component';
+
 const approot: Routes = [
 
       {
@@ -59,11 +58,7 @@ const approot: Routes = [
       },
       {
         path : 'patlist' , component : PatissiersListComponent
-      },
-      {
-        path : 'lateralle' , component : LatteralComponent
       }
-
 
 
     ]},
@@ -91,7 +86,6 @@ const approot: Routes = [
     MenuComponent,
     PatissiersListComponent,
     ArtsListComponent,
-    LatteralComponent
 
 
 
@@ -102,7 +96,7 @@ const approot: Routes = [
     RouterModule.forRoot(approot),
     BrowserModule,
     // Registering EJ2 Sidebar Module
-    SidebarModule
+
 
 
 
