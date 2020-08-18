@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
@@ -16,6 +16,7 @@ import { SidebareComponent } from './sidebare/sidebare.component';
 import { MenuComponent } from './menu/menu.component';
 import { PatissiersListComponent } from './produits/patisssiers/patissiers-list/patissiers-list.component';
 import { ArtsListComponent } from './produits/artisanaux/arts-list/arts-list.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 // Imported syncfusion sidebar module from navigations package
@@ -58,6 +59,9 @@ const approot: Routes = [
       },
       {
         path : 'patlist' , component : PatissiersListComponent
+      },
+      {
+      path :  'navigation' , component : NavigationComponent
       }
 
 
@@ -86,6 +90,7 @@ const approot: Routes = [
     MenuComponent,
     PatissiersListComponent,
     ArtsListComponent,
+    NavigationComponent,
 
 
 
