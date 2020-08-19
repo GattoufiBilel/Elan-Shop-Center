@@ -17,6 +17,7 @@ import { MenuComponent } from './menu/menu.component';
 import { PatissiersListComponent } from './produits/patisssiers/patissiers-list/patissiers-list.component';
 import { ArtsListComponent } from './produits/artisanaux/arts-list/arts-list.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { QuisommesnousComponent } from './quisommesnous/quisommesnous.component';
 
 
 // Imported syncfusion sidebar module from navigations package
@@ -91,6 +92,7 @@ const approot: Routes = [
     PatissiersListComponent,
     ArtsListComponent,
     NavigationComponent,
+    QuisommesnousComponent,
 
 
 
