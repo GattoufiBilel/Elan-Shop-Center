@@ -1,0 +1,40 @@
+p{
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+
+
+img{
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+iframe{
+  width: 400px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: right;
+}
+
+
+.block_vtr{
+margin-bottom: 50px;
+padding-right: 10px;
+margin-left: 200px;
+}
+
+
+.vtr_right {
+  padding-right: 50px;
+}
+

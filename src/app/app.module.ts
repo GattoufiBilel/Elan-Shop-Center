@@ -63,6 +63,10 @@ const approot: Routes = [
       },
       {
       path :  'navigation' , component : NavigationComponent
+      },
+
+      {
+        path : 'quisommenous' , component : QuisommesnousComponent
       }
 
 
