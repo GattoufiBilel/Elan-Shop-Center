@@ -38,3 +38,28 @@ margin-left: 200px;
   padding-right: 50px;
 }
 
+
+/* article */
+article {
+display: block;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightyellow;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+}
+
