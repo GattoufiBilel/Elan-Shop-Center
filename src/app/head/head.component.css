@@ -35,29 +35,23 @@ input[type=text]:focus {
   float: none;
 }
 
+/* sidebare */
 
-.sidfixed{
-  position: absolute  ;
-  z-index: 1;
-  float: left;
-}
-
-.flex-column{
+.w3-sidebar{
   width: 200px;
-  background-color: yellowgreen;
-  color: black;
+  background-color:#4caf50;
+  color: white;
+  font-size: 30px;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  margin-left:15px;
+  margin-top:0px;
+  padding-top:5px;
+  left: 0;
 }
 
 
-.flex-column:active{
-  color:wheat;
-  }
-
-  .nav-link{
-    color: black;
-    font-size: large;
-  }
-
-  .nav-link:active{
-background-color: beige;
-  }
+.w3-bar-item:focus{
+  background-color: white;
+}

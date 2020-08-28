@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Header</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 </head>
 <body>
   <div class="container-fluid">
@@ -103,11 +105,24 @@
 <div class="row">
   <div class="col col-4 sidfixed">
     <!-- A vertical navbar -->
-    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+    <div class="w3-sidebar w3-bar-block w3-large w3-border-bottom">
+      <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-home"></i> Home </a>
+      <a routerLink="/quisommenous" class="w3-bar-item w3-button"> <i class="fa fa-exclamation"> </i>  Qui somme nous</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button"> <i class="fa fa-navicon"> </i> Nos Produits </button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a routerLink="/patlist" class="w3-bar-item w3-button">Patisiers</a>
+          <a routerLink="/artslist" class="w3-bar-item w3-button">Artisanaux</a>
+        </div>
+      </div>
+    <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-wrench"></i> Condition de vente</a>
+    <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-envelope"> </i> Contactez nous</a>
+    </div>
+
+
+
+    <div style="margin-left:100%">
+
     </div>
 
   </div>

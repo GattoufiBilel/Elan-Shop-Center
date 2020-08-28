@@ -46,7 +46,7 @@ display: block;
 .all-browsers {
   margin: 0;
   padding: 5px;
-  background-color: lightyellow;
+  background-color: teal;
 }
 
 .all-browsers > h1, .browser {
