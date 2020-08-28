@@ -1,0 +1,63 @@
+.logo_img > img{
+  width: 300px;
+  height: 300px;
+  float: left;
+  display: block;
+}
+
+
+.search_bar {
+  width: 500px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  flex-direction: row;
+  margin-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+input[type=text]{
+  text-align: center;
+  font-size: large;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 90%;
+}
+.b_search{
+  padding-bottom: 20px;
+  width: 50px;
+  text-align: center;
+}
+
+.fa-search{
+  text-align: center;
+  float: none;
+}
+
+
+.sidfixed{
+  position: absolute  ;
+  z-index: 1;
+  float: left;
+}
+
+.flex-column{
+  width: 200px;
+  background-color: yellowgreen;
+  color: black;
+}
+
+
+.flex-column:active{
+  color:wheat;
+  }
+
+  .nav-link{
+    color: black;
+    font-size: large;
+  }
+
+  .nav-link:active{
+background-color: beige;
+  }

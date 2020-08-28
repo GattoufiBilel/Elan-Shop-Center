@@ -18,6 +18,7 @@ import { PatissiersListComponent } from './produits/patisssiers/patissiers-list/
 import { ArtsListComponent } from './produits/artisanaux/arts-list/arts-list.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { QuisommesnousComponent } from './quisommesnous/quisommesnous.component';
+import { HeadComponent } from './head/head.component';
 
 
 // Imported syncfusion sidebar module from navigations package
@@ -67,6 +68,9 @@ const approot: Routes = [
 
       {
         path : 'quisommenous' , component : QuisommesnousComponent
+      },
+      {
+        path : 'head' , component : HeadComponent
       }
 
 
@@ -97,6 +101,7 @@ const approot: Routes = [
     ArtsListComponent,
     NavigationComponent,
     QuisommesnousComponent,
+    HeadComponent,
 
 
 
