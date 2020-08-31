@@ -54,4 +54,5 @@ input[type=text]:focus {
 
 .w3-bar-item:focus{
   background-color: white;
+  color: white;
 }

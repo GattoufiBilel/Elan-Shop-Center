@@ -19,6 +19,10 @@ import { ArtsListComponent } from './produits/artisanaux/arts-list/arts-list.com
 import { NavigationComponent } from './navigation/navigation.component';
 import { QuisommesnousComponent } from './quisommesnous/quisommesnous.component';
 import { HeadComponent } from './head/head.component';
+import { DashboardComponent } from './backend/dashboard/dashboard.component';
+import { GestionUsersComponent } from './backend/gestion-users/gestion-users.component';
+import { EspaceComponent } from './backend/espace/espace.component';
+import { AddUserComponent } from './backend/gestion-users/add-user/add-user.component';
 
 
 // Imported syncfusion sidebar module from navigations package
@@ -76,13 +80,26 @@ const approot: Routes = [
 
     ]},
 
+      {
+        path : 'espace' , component : EspaceComponent
+      },
+      {
+         path : 'admin' , component : DashboardComponent
+      },
 
+    {
+      path : 'users' , component : GestionUsersComponent
+    },
 
+    {
+      path : 'adduser' , component : AddUserComponent
+    },
 
-{
-  path : 'login' , component : LoginComponent
-},
+    {
+          path : 'login' , component : LoginComponent
+    }
 ];
+
 
 
 @NgModule({
@@ -102,6 +119,10 @@ const approot: Routes = [
     NavigationComponent,
     QuisommesnousComponent,
     HeadComponent,
+    DashboardComponent,
+    GestionUsersComponent,
+    EspaceComponent,
+    AddUserComponent,
 
 
 
