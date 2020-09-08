@@ -1,32 +1,27 @@
 body {
-  background-image: url(../../assets/images/Fond-04.jpg);
-  margin-left:200px
+    background-image: url(../../assets/images/Fond-04.jpg);
+    margin-left: 200px;
 }
+
 footer {
-  padding-left: 15px;
-  padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .vl {
-  border-left: 6px solid red;
-  height: 500px;
+    border-left: 6px solid red;
+    height: 500px;
 }
 
+.carro-custum {
+    margin-top: 20px;
+    border-color: brown;
+    padding-bottom: 100px;
+}
 
-.carro-custum{
-  margin-top: 20px;
-  border-color: brown;
-  padding-bottom: 100px;
-
-  }
-
-
-
-  .picsum-img-wrapper , img {
-      width: 20vw;
-      height: 30vh;
-      max-width: 100%;
-  }
-
-
-
+.picsum-img-wrapper,
+img {
+    width: 20vw;
+    height: 30vh;
+    max-width: 100%;
+}

@@ -1,18 +1,17 @@
-body{
- background-color: white;
- margin-left: 100px;
+body {
+    background-color: white;
+    margin-left: 200px;
 }
 
-.card-img-top{
-  width:200px;
-  height:200px;
+.card-img-top {
+    width: 200px;
+    height: 200px;
 }
 
-.card-text{
- font-size: small;
+.card-text {
+    font-size: small;
 }
 
-
-.etiquette{
-color: orange;
+.etiquette {
+    color: orange;
 }

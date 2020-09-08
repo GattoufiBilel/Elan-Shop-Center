@@ -1,110 +1,117 @@
-.logo_img > img{
-  width: 200px;
-  height: 200px;
-  float: left;
-  display: block;
-
+.logo_img>img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    display: block;
 }
-
 
 .search_bar {
-  width: 600px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-  flex-direction: row;
-  margin-top: 100px;
-  padding-right: 50px;
-  padding-bottom: 5px;
-  border-radius: 20px;
+    width: 600px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    border-radius: 20px;
 }
-input[type=text]{
-  text-align: center;
-  font-size: large;
+
+input[type=text] {
+    text-align: center;
+    font-size: large;
 }
+
 
 /* When the input field gets focus, change its width to 100% */
+
 input[type=text]:focus {
-  width: 90%;
-}
-.b_search{
-  padding-bottom: 5px;
-  width: 50px;
-  text-align: center;
-  margin-left: 10px;
+    width: 90%;
 }
 
-.fa-search{
-  text-align: center;
-  float: none;
+.b_search {
+    padding-bottom: 5px;
+    width: 50px;
+    text-align: center;
+    margin-left: 10px;
 }
+
+.fa-search {
+    text-align: center;
+    float: none;
+}
+
 
 /* sidebare */
 
-.w3-sidebar{
-  width: 200px;
-  background-color:#4caf50;
-  color: white;
-  font-size: 20px;
-  position: fixed;
-  z-index: 1;
-  margin-left:0x;
-  margin-top:0px;
-  padding-top:5px;
-  left: 0;
+.w3-sidebar {
+    width: 200px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0x;
+    margin-top: 0px;
+    padding-top: 5px;
+    left: 0;
 }
 
-
-.w3-bar-item:focus{
-  background-color: white;
-  color: white;
+.w3-bar-item:focus {
+    background-color: white;
+    color: white;
 }
+
 
 /* icone tel */
 
 .fa-phone {
-  border: 2px double green;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+    border: 2px double green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
-.pa-phone{
-  margin-top: 20px;
+p {
+    font-size: 20px;
+    font-style: italic;
 }
 
-.social{
-  width: 40px;
-  height: 40px;
-  margin-left: 30px;
+.pa-phone {
+    margin-top: 10px;
 }
 
-
-.navbar-nav{
-  margin-top:20px
+.social {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
 }
 
-
-.logo_tel{
-  margin-left: 600px;
-
+.navbar-nav {
+    margin-top: 20px
 }
 
+.logo_tel {
+    margin-left: 600px;
+}
 
 
 /* search bar */
 
 .form-control-borderless {
-  border: none;
+    border: none;
 }
 
-.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
-  border: none;
-  outline: none;
-  box-shadow: none;
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
-
-.card{
-margin-top:30px;
+.card {
+    margin-top: 30px;
+    padding-bottom: -500px;
 }
-

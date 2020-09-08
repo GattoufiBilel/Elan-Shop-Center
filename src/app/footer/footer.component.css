@@ -1,38 +1,35 @@
-body{
-max-width: 100%;
-}
-.product_logo > img{
-width: 160px ;
-height:120px ;
-border-radius: 30%;
-border: goldenrod solid 2px ;
+body {
+    max-width: 100%;
+    margin-left: 5;
 }
 
+.product_logo>img {
+    width: 160px;
+    height: 120px;
+    border-radius: 30%;
+    border: goldenrod solid 2px;
+}
 
-.partenaires_logo > img{
-  width: 180px ;
-  height:100px ;
-  border-radius: 10%;
+.partenaires_logo>img {
+    width: 180px;
+    height: 100px;
+    border-radius: 10%;
+}
 
-  }
-
-
-  figcaption{
+figcaption {
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     font-size: larger;
     padding: 2px;
+}
 
-  }
-
-  .elan-diff{
+.elan-diff {
     text-align: justify;
     text-justify: inter-word;
+}
 
-  }
-
-  .text-center{
-    padding-left:100px;
-  }
+.text-center {
+    padding-left: 100px;
+}
