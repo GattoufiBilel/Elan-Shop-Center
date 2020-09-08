@@ -80,12 +80,17 @@ const approot: Routes = [
 
     ]},
 
-      {
-        path : 'espace' , component : EspaceComponent
-      },
-      {
-         path : 'admin' , component : DashboardComponent
-      },
+    {
+      path : 'login' , component : LoginComponent
+    },
+
+    {
+      path : 'admin' , component : DashboardComponent
+    },
+
+    {
+      path : 'es' , component : EspaceComponent , children : [
+
 
     {
       path : 'users' , component : GestionUsersComponent
@@ -94,10 +99,9 @@ const approot: Routes = [
     {
       path : 'adduser' , component : AddUserComponent
     },
+  ]},
 
-    {
-          path : 'login' , component : LoginComponent
-    }
+
 ];
 
 

@@ -5,10 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Header</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- -->
+
+<!---->
+
+
 
 </head>
 <body>
   <div class="container-fluid">
+    <div class="row">
+      <div class="col col-12">
+        <!-- As a heading -->
+          <nav class="navbar navbar-light bg-light">
+              <span class="navbar-brand mb-0 h1">Boutique elan </span>
+              <div class="logo_tel">
+                <h4>
+                   <!--<i class="fa fa-phone" style="font-size:18px"></i>-->
+                    <p class="pa-phone"> <img class="fa-phone" src="../../assets/images/logo/tel.png">
+                       (+216) 71.000 000
+                    </p>
+                </h4>
+              </div>
+
+<!-- reseau social -->
+
+     <!-- fin nav bar-->
+
+   <!-- fin 3eme col-->
+
+
+          </nav>
+      </div>
+    </div>
+
+
+
+
+
     <div class="row">
       <!-- logo-->
       <div class="col col-3">
@@ -18,29 +55,39 @@
       </div>
       <!-- barre de rechercher-->
       <div class="col col-6">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search" class="search_bar">
-          <button type="submit" class="b_search"><i class="fa fa-search"></i></button>
-        </form>
+        <form class="card card-sm">
+          <div class="card-body row no-gutters align-items-center">
+              <div class="col-auto">
+                  <i class="fa fa-search  h4 text-body" style="font-size:24px" aria-hidden="true" ></i>
+              </div>
+              <!--end of col-->
+              <div class="col">
+                  <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+              </div>
+              <!--end of col-->
+              <div class="col-auto">
+                  <button class="btn btn-lg btn-success" type="submit">Search</button>
+              </div>
+              <!--end of col-->
+          </div>
+      </form>
+
+
       </div>
-      <!-- icon tele -->
-      <div class="col col-3">
-        <div class="logo_tel">
-          <h3>
-             <span class="fa fa-phone"></span>
-             <p> (+216) 71.000 000 </p>
-          </h3>
-        </div>
+
+
+
+
         <!-- logo social media -->
         <div class="row">
          <div class="col col-3">
-           <nav class="navbar navbar-expand-sm bg-light">
+          <nav class="navbar navbar-expand-sm">
             <ul class="navbar-nav">
               <!-- facebook logo-->
               <li class="nav-item">
                <a class="dark-grey-text" href="http://www.facebook.com/Elan-by-CONECT-Entreprise-dentrainement-546724438806098" target="_blank">
                  <div class="social_logo">
-                   <img src="../../assets/images/L/fb.jpg" alt="ATFP">
+                   <img src="../../assets/images/L/fb.png" alt="ATFP" class="social">
                  </div>
                </a>
               </li>
@@ -48,7 +95,7 @@
               <li class="nav-item">
                 <a class="dark-grey-text" href="http://www.youtube/ELAN byCONECT">
                  <div class="social_logo">
-                   <img src="../../assets/images/L/Logo Youtube -03.jpg" alt="ATFP">
+                   <img src="../../assets/images/L/Logo Youtube -03.jpg" alt="ATFP" class="social">
                  </div>
                </a>
               </li>
@@ -57,7 +104,7 @@
                <li class="nav-item">
                 <a class="dark-grey-text" href="http://www.instagram.com/elanbyconect" target="_blank">
                   <div class="social_logo">
-                    <img src="../../assets/images/L/Logo Instgrame -02.jpg" alt="ATFP">
+                    <img src="../../assets/images/L/Logo Instgrame -02.jpg" alt="ATFP" class="social">
                   </div>
                 </a>
               </li>
@@ -66,19 +113,19 @@
               <li class="nav-item">
                 <a class="dark-grey-text" href="http://www.linkedin.com/company/elan-by-conect-entreprise-d-entrainement" target="_blank">
                   <div class="social_logo">
-                    <img src="../../assets/images/L/Log LinkedIn-04.jpg" alt="ATFP">
+                    <img src="../../assets/images/L/Log LinkedIn-04.jpg" alt="ATFP" class="social">
                   </div>
                 </a>
               </li>
             </ul>
-            <!-- fin ligne social media logo-->
-           </nav>
+            <!-- fin ligne social media logo nav-->
+            </nav>
             <!-- fin nav bar-->
           </div>
           <!-- fin 3eme col-->
        </div>
       <!-- fin 2eme row -->
-      </div>
+
 
     <!-- fin row principal-->
   </div>
@@ -88,9 +135,6 @@
  <!-- Page navbar  -->
 
     <app-navigation></app-navigation>
-
-
-
 
 
  <!-- hr -->
@@ -106,36 +150,26 @@
   <div class="col col-4 sidfixed">
     <!-- A vertical navbar -->
     <div class="w3-sidebar w3-bar-block w3-large w3-border-bottom">
-      <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-home"></i> Home </a>
+      <a routerLink="/contenu" class="w3-bar-item w3-button"> <i class="fa fa-home"></i> Home </a>
       <a routerLink="/quisommenous" class="w3-bar-item w3-button"> <i class="fa fa-exclamation"> </i>  Qui somme nous</a>
       <div class="w3-dropdown-hover">
         <button class="w3-button"> <i class="fa fa-navicon"> </i> Nos Produits </button>
         <div class="w3-dropdown-content w3-bar-block">
-          <a routerLink="/patlist" class="w3-bar-item w3-button">Patisiers</a>
+          <a routerLink="/patlist" class="w3-bar-item w3-button">Patissiers</a>
           <a routerLink="/artslist" class="w3-bar-item w3-button">Artisanaux</a>
         </div>
       </div>
     <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-wrench"></i> Condition de vente</a>
-    <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-envelope"> </i> Contactez nous</a>
+    <a routerLink="/contactez" class="w3-bar-item w3-button"> <i class="fa fa-envelope"> </i> Contactez nous</a>
     </div>
 
-
-
-    <div style="margin-left:100%">
+    <div style="margin-left:50px;">
 
     </div>
 
   </div>
 </div>
-
-
- <!-- contenu-->
-
- <!-- slick-->
-
-   <!-- fin fluid-->
 </div>
-
 </body>
 </html>
 

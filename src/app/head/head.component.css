@@ -1,19 +1,21 @@
 .logo_img > img{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   display: block;
+
 }
 
 
 .search_bar {
-  width: 500px;
+  width: 600px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   flex-direction: row;
   margin-top: 100px;
   padding-right: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+  border-radius: 20px;
 }
 input[type=text]{
   text-align: center;
@@ -25,9 +27,10 @@ input[type=text]:focus {
   width: 90%;
 }
 .b_search{
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   width: 50px;
   text-align: center;
+  margin-left: 10px;
 }
 
 .fa-search{
@@ -41,11 +44,10 @@ input[type=text]:focus {
   width: 200px;
   background-color:#4caf50;
   color: white;
-  font-size: 30px;
-  display: block;
+  font-size: 20px;
   position: fixed;
   z-index: 1;
-  margin-left:15px;
+  margin-left:0x;
   margin-top:0px;
   padding-top:5px;
   left: 0;
@@ -56,3 +58,53 @@ input[type=text]:focus {
   background-color: white;
   color: white;
 }
+
+/* icone tel */
+
+.fa-phone {
+  border: 2px double green;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.pa-phone{
+  margin-top: 20px;
+}
+
+.social{
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+
+.navbar-nav{
+  margin-top:20px
+}
+
+
+.logo_tel{
+  margin-left: 600px;
+
+}
+
+
+
+/* search bar */
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.card{
+margin-top:30px;
+}
+

@@ -1,5 +1,6 @@
 body {
   background-image: url(../../assets/images/Fond-04.jpg);
+  margin-left:200px
 }
 footer {
   padding-left: 15px;
@@ -22,8 +23,10 @@ footer {
 
 
   .picsum-img-wrapper , img {
-      width: 50vw;
-      height: 50vh;
+      width: 20vw;
+      height: 30vh;
       max-width: 100%;
   }
+
+
 

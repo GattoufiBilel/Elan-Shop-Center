@@ -3,6 +3,7 @@ body{
   /*background-image: url(../../assets/images/Fond-01.jpg);
     color : #21d192; */
   font-family: "Lato", sans-serif;
+  display: flex;
 }
 
 /*lightsteelblue */

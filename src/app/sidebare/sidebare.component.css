@@ -12,6 +12,8 @@ body {
   background-color :#111;
   overflow-x: hidden;
   padding-top: 20px;
+  display: flex;
+  align-items: left;
 
 }
 
